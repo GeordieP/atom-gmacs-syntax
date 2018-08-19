@@ -1,0 +1,30 @@
+@syntax-fg:     #777777;
+@syntax-bg:     #282828;
+@syntax-gutter: darken(@syntax-fg, 10%);
+@syntax-guide:  lighten(@syntax-bg, 7%);
+
+// ACCENT COLORS
+//------------------------------------------------------------------------------
+
+// purple
+@syntax-accent: #6e6887;
+@syntax-accent-bright: #a48fff;
+
+// green
+// @syntax-accent: #7da050;
+// @syntax-accent-bright: #d3ff8f;
+
+// blue
+// @syntax-accent: #6f859f;
+// @syntax-accent-bright: #58d6ff;
+
+// gold
+// @syntax-accent: #9c8c5f;
+// @syntax-accent-bright: #c5b567;
+
+@syntax-contrast-1: 10%;
+@syntax-contrast-2: 20%;
+@syntax-fg-1: darken(@syntax-fg, @syntax-contrast-1);     // lighter
+@syntax-fg-2: darken(@syntax-fg, @syntax-contrast-2);     // even lighter
+@syntax-fg-3:  lighten(@syntax-fg, @syntax-contrast-1);   // darker
+@syntax-fg-4:  lighten(@syntax-fg, @syntax-contrast-2);   // even darker
